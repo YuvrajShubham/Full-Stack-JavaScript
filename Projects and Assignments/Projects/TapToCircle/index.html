@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapToCircle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body id="body">
+    <div></div>
+    <script>
+        const tap = document.querySelector("div");
+        tap.addEventListener("click", function () {
+            tap.style.width = '50px';
+            tap.style.height = '50px';
+            tap.style.borderRadius = '50%';
+            tap.style.background = 'red';
+
+        })
+        const div = document.createElement("div");
+
+        // Style the div element
+        div.style.width = "50px";
+        div.style.height = "50px";
+        div.style.backgroundColor = "red";
+
+        // Add the div element to the page
+        document.body.appendChild(div);
+
+        // Add an event listener to the button to add the div element to the page when clicked
+        const button = document.querySelector("button");
+        button.addEventListener("click", function () {
+            document.body.appendChild(div);
+        });
+    </script>
+</body>
+
+</html>

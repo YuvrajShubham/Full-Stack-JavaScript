@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.future{
+    background-image: url('Assets/Photos/futuristic-bg.png');
+}
+.hero-container{
+    background-image: url('Assets/Photos/futuristic-bg.png');
+}
+.nav-conatiner{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5rem;
+}
+.nav-conatiner>.nav-links{
+    padding-right: 35rem;
+}

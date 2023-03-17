@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-left: 8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+.navbar {
+  display: flex;
+  gap: 40rem;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  margin-right: 3rem;
+}
+#about {
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.nav {
+  display: flex;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url('images/Path\ 604.png'); */
+  background: rgb(185, 185, 239);
+}
+.version {
+  background: rgb(251, 167, 251);
+  border-radius: 24px;
+  padding: 0.3rem 1rem;
+  color: blueviolet;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+.learn {
+  text-decoration: underline;
+}
+.left-hero > div > input {
+  margin-top: 1rem;
+  border-radius: 24px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+}
+.left-hero > h1 {
+  margin-bottom: 1rem;
+}
+.trial {
+  color: #fff;
+  background: blueviolet;
+}
+.learn-more {
+  background: #fff;
+  color: blueviolet;
+}
+.qubiy {
+  text-align: center;
+}
+.qubiy > p:first-child {
+  background: #f7f0ff;
+  padding: 0.3rem 0.5rem 0.3rem 0.7rem;
+  margin: 1rem 43rem 1rem 43rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 24px;
+  color: #9968df;
+}
+/* why this is not working? */
+/* .quiby > p {
+  color: red;
+  background: #000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+} */
+.quiby-about{
+  margin: 1rem 0 2rem 0;
+}
+.quiby-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem 14rem;
+}
+.quiby-sections>div>h2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.product-team, .eng-team{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.right-section>p:first-child,
+.left-section>p:first-child{
+  color: #8C53DA;
+  background: #F9F0FF;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 19rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 24px;
+  margin-bottom: 1rem;
+}
+.right-section>h2,
+.left-section>h2{
+  margin-bottom: 1rem;
+}
+.testimonial{
+  text-align: center;
+}
+.logo-bar{
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin: 1rem 0 20rem 0;
+}
+.sign-up{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  /* gap: -32rem; */
+}
+.form-right-section{
+  background: #F5ECFB;
+  padding: 0 1rem 1rem 1rem;
+  display: inline-flexbox;
+  width: fit-content;
+  border-radius: 0 0 8px 8px;
+}
+.form-left-section{
+  display: flex;
+  flex-direction: column;
+}
+form{
+  background: #fff;
+  /* line-height: 2rem; */
+  padding: 2rem;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 0 0 8px 8px;
+}
+form>input{
+  padding: 0.5rem 10rem 0.5rem 0.5rem;  
+}
+form>input:first-of-type{
+  background: #722ED1;
+  padding-left: 9rem;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+form>img{
+  width: min-content;
+  align-self: center;
+}
+form>p>span{
+  color: #722ED1;
+}
+.signup-logo{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+
+}

@@ -1,0 +1,70 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-left: 5rem;
+}
+nav{
+    display: inline-flex;
+    width: auto;
+    margin-top: 3rem;
+}
+/* div:nth-child(1){
+    flex-grow: 1;
+    background-color: red;
+} */
+ul{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+} 
+li{
+   margin-right: 1rem;
+} 
+/* li:nth-child(n){
+    font-weight: lighter;
+    color:white
+}  */
+li.home{
+    /* color: #000;
+    background: #ffff; */
+    font-weight: bold;
+} 
+.button-group{
+    margin-left: 40rem;
+}
+button{
+    padding: 15px 20px;
+    background: rgb(113, 105, 232);
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+    font-weight: bold;
+}
+.banner-container{
+    display: flex;
+}
+.heading-text{
+    margin-top: 150px;
+    width: 50%;
+    line-height: 60px;
+    font-size: 40px ;
+}
+.description{
+    margin-top: 20px;
+    width: 60%;
+    line-height: 30px;
+}
+span{
+    color: rgb(113, 105, 232);;
+}
+.btn{
+    margin-top: 40px;
+}
+.banner-container>div:last-child>img{
+    width: 99%;
+}

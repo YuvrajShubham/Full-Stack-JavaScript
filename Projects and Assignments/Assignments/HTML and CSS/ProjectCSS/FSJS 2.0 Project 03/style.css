@@ -1,0 +1,111 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+   display: flex;
+   margin: 3rem 5rem;
+}
+nav>div>img{
+    width: 100%;
+    margin-right: 160px;
+}
+.list{
+    width: 200%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    font-size: 20px;
+}
+.list-item{
+    padding-left: 1.5rem;
+    margin-left: 30px;
+}
+li:first-child{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.button-group{
+    margin-left: 35rem;
+    display: flex;
+}
+.nav-button{
+    padding: 5px 30px;
+    border-radius: 8px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+.hero-container{
+    display: flex;
+}
+.hero-container:last-child{
+    position: absolute;
+    left: 5%;
+}
+.hero-container>div>img{
+    width: 70%;
+}
+.square>img{
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+    top: 33%;
+    left: 6%;
+}
+.hero-container>.star>img{
+    position: absolute;
+    /* top:0%; */
+    left: 90%;
+    width:3%;
+}
+/* .star+span{
+    left:80%;
+    background: red;
+} */
+.globe>img{
+    position: absolute;
+    top:-6%;
+    left:55%;
+    width: 4%;
+}
+.hero-container-right{
+    position: relative;
+    width: 40%;
+    margin-top: 5%;
+    left: 13%;
+    text-align: center;
+}
+.hero-heading{
+    text-align: justify;
+    font-size: 57px;
+    margin-bottom: 10%;
+}
+.hero-description{
+    line-height: 1.5rem;
+    margin-bottom: 20%;
+}
+.button-email{
+    padding: 0.5% 2.5%;
+    border-radius: 8px;
+    margin-right: 1%;
+}
+.button-join{
+    background: #000;
+    color: #ffff;
+    border-radius: 8px;
+    padding: 0.5% 1%;
+}
+.contact-heading{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.icons>span>img{
+    margin-right: 2.5%;
+    width: 5%;
+}
+
+
+

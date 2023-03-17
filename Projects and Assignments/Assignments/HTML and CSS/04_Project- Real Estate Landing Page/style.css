@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background: url("Photos/mainBackground.png") no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  padding: 2rem 3rem 8rem 3rem;
+  color: #fff;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 55rem;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.hero-section > h1 {
+  margin-top: 8rem;
+  width: 20%;
+  line-height: 3rem;
+  font-size: 35px;
+}
+.hero-section > p {
+  margin-top: 1rem;
+  width: 23%;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+.hero-section > input {
+  border-radius: 24px;
+  padding: 0.5rem 1.5rem;
+  background: #6f6fe6;
+  color: #fff;
+  border: none;
+}
+.logobar {
+  position: relative;
+  background: #ffff;
+  margin: -3.5% 1rem 0 1rem;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  z-index: 1;
+}
+.estate {
+  position: relative;
+  z-index: 0;
+  margin-top: -3rem;
+  padding: 5rem 6rem;
+  background: #cecbcb;
+}
+.estate > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.card-image-section1,
+.card-image-section3,
+.card-image-section2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.cardImage {
+  border-radius: 12px;
+  width: 20rem;
+  height: 20rem;
+}
+.price-section {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  /* padding-left: 1rem; */
+}
+.card {
+  margin-top: -2.5rem;
+  width: 15rem;
+  padding: 1rem 0.5rem;
+  color: black;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  margin-top: -6.5rem;
+  margin-bottom: 4.5rem;
+}
+.card2 {
+  margin-top: -4.5rem;
+  margin-bottom: 2.5rem;
+}
+/* .card3{
+    margin-top: -1.5rem;
+    margin-bottom: 0.5rem;
+} */
+.card > p {
+  width: 35%;
+  padding-left: 1rem;
+}
+.card > p > span {
+  color: #6f6fe6;
+}
+.card > input {
+  background: #6f6fe6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+  margin-left: 3rem;
+}
+.cardImage2,
+.cardImage3 {
+  margin-top: 2rem;
+}
+.cardImage3 {
+  margin-top: 4rem;
+}
+.early-bird {
+  margin-top: 6rem;
+}
+.early-bird-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* .left-early-bird-1{
+    display: flex;
+} */
+.feature {
+  width: 32rem;
+  height: 32rem;
+  border-radius: 48px;
+}
+.feature1 {
+  /* position: relative;
+  bottom: 8rem;
+  right: 36rem; */
+  position: absolute;
+  right: 54rem; 
+}
+.eb-bg2 {
+  margin-left: 50.5rem;
+}
+.feature2 {
+  position: relative;
+  bottom: 40rem;
+  left: 54.2rem;
+}
+.eb-btn {
+  background: #6f6fe6;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 24px;
+  border: none;
+  margin-top: 1rem;
+}
+.subscribe {
+  background: #6f6fe6;
+  padding: 3rem 5rem;
+  color: #fff;
+  margin: 0 2rem;
+  border-radius: 24px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.subscribe > h1 {
+  line-height: 4rem;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+.subscribe > p {
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.subscribe > input {
+  border-radius: 24px;
+  border: none;
+}
+.email {
+  background: url("Icons/mail.png") no-repeat #5655d0;
+  background-size: 1.5rem;
+  padding: 1rem 10rem 1rem 3rem;
+  background-position: bottom 50% left 5%;
+  color: #cecbcb;
+  font-size: medium;
+  border: none;
+}
+.subs {
+  background: #fff;
+  color: #6f6fe6;
+  padding: 1rem 3rem;
+  font-weight: bold;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 14fr 2fr 2fr 2fr;
+  margin: 3rem;
+  padding: 2rem;
+}
+.social-media {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.fr {
+  line-height: 3rem;
+}
+.footer-logo {
+  padding-top: 2.5rem;
+  line-height: 2rem;
+}
